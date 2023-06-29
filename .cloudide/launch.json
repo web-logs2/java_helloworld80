@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SOFABoot Application - HelloworldApplication",
+      "request": "launch",
+      "shortenCommandLine": "none",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "preLaunchTask": "",
+      "mainClass": "com.example.helloworld.HelloworldApplication",
+      "projectName": "helloworld"
+    },
+    {
+      "type": "java",
+      "name": "Debug - Remote",
+      "request": "attach",
+      "projectName": "java_helloworld80",
+      "hostName": "<远程服务器的IP地址 比如 11.124.181.108>",
+      "port": "<远程服务器的debug端口 比如 8000>"
+    }
+  ]
+}
